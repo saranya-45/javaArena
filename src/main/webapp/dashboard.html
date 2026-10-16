@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaArena Dashboard</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h2 class="logo">JavaArena</h2>
+
+            <nav>
+
+                <a href="#" class="active">🏠 Dashboard</a>
+
+                <a href="learn.html">📚 Learn</a>
+
+                <a href="notes.html">📝 Notes</a>
+
+                <a href="#">❓ Quiz</a>
+
+                <a href="#">🏆 Leaderboard</a>
+
+                <a href="#">👤 Profile</a>
+
+            </nav>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="header">
+
+                <div>
+                    <h1>Welcome, <span id="username">Loading...</span> 👋</h1>
+                    <p id="email">Loading...</p>
+                </div>
+
+            </header>
+
+            <!-- Statistics -->
+            <section class="stats">
+
+                <div class="card">
+                    <h3>XP</h3>
+                    <p id="xp">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Level</h3>
+                    <p id="level">Loading...</p>
+                </div>
+
+                <div class="card">
+                    <h3>Streak</h3>
+                    <p id="streak">0 Days</p>
+                </div>
+
+                <div class="card">
+                    <h3>Progress</h3>
+                    <p id="progress">0%</p>
+                </div>
+
+            </section>
+
+            <!-- Continue Learning -->
+            <section class="continue-learning card">
+
+                <h2>Continue Learning</h2>
+
+                <h3>Java Programming</h3>
+
+                <p>Your learning journey starts here.</p>
+
+                <button>Continue Learning</button>
+
+            </section>
+
+            <!-- Quick Access -->
+            <section class="quick-access">
+
+                <h2>Quick Access</h2>
+
+                <div class="quick-grid">
+
+                    <div class="card" onclick="window.location.href='learn.html'">📚 Learn</div>
+
+                   <div class="card" onclick="window.location.href='notes.html'">
+                        📝 Notes
+                    </div>
+
+                    <div class="card">❓ Quiz</div>
+
+                    <div class="card">🏆 Leaderboard</div>
+
+                </div>
+
+            </section>
+
+            <!-- Recent Activity -->
+            <section class="recent card">
+
+                <h2>Recent Activity</h2>
+
+                <ul>
+
+                    <li>No activity yet.</li>
+
+                </ul>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>

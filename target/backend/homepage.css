@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    gap: 750px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+main {
+    padding-bottom: 250px;
+}
+nav{
+    display: flex;
+    gap:100px;
+    
+}
+nav1{
+     display: flex;
+
+}
+footer{
+    display: flex;
+    gap:100px;
+}

@@ -1,0 +1,19 @@
+form{
+   padding: 10vh;
+     margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 300px;
+      margin-right: 300px;
+    border: 2px solid black;
+}
+.login{
+     display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-container
+{
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 100px;
+}
